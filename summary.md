@@ -6,3 +6,7 @@
 # logit adjustment loss
 - 概率建模互信息，loss采用交叉熵
 - https://zhuanlan.zhihu.com/p/158638078
+
+# 同义词对齐/同义片段对齐
+- 机器翻译NMT model 
+- 片段对齐：特定上下文条件下的同义片段，如"起红疹--长红疹"
