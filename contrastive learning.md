@@ -1,4 +1,4 @@
-## contrastive representation learning: a framework and review
-## CERT: Contrastive Self-supervised Learning for Language Understanding
-## Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning
-## Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
+- contrastive representation learning: a framework and review
+- CERT: Contrastive Self-supervised Learning for Language Understanding
+- Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning
+- Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval
