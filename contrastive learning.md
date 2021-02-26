@@ -4,8 +4,9 @@
 - 最终目标：![](https://latex.codecogs.com/svg.latex?s(f(x),f(x^+))>>s(f(x),f(x^-)))
 - loss1：N个样本的交叉熵，InfoNCE，![](https://latex.codecogs.com/svg.latex?-\log(\frac{e^{f(x)^Tf(x^+)}}{e^{f(x)^Tf(x^+)}+e^{f(x)^Tf(x^-)}}))
 - loss2：triplet loss，![](https://latex.codecogs.com/svg.latex?max(0,\sigma+s(x,x^+)-s(x,x^-)))
+- 关键：如何构建正负样本
 
-
+# papers
 - contrastive representation learning: a framework and review
 
 # CV
