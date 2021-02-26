@@ -3,7 +3,7 @@
 - 数据：一个样本x，有1个正例和N-1个负例
 - 最终目标：![](https://latex.codecogs.com/svg.latex?s(f(x),f(x^+))>>s(f(x),f(x^-)))
 - loss1：N个样本的交叉熵，InfoNCE，![](https://latex.codecogs.com/svg.latex?-\log(\frac{e^{f(x)^Tf(x^+)}}{e^{f(x)^Tf(x^+)}+e^{f(x)^Tf(x^-)}}))
-- loss2：triplet loss，![](https://latex.codecogs.com/svg.latex?-y_p\log(1-y_p))
+- loss2：triplet loss，![](https://latex.codecogs.com/svg.latex?max(0,\sigma+s(x,x^+)-s(x,x^-)))
 
 
 - contrastive representation learning: a framework and review
