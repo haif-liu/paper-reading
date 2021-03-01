@@ -1,5 +1,12 @@
 
 # Approximate nearest neighbor negative contrastive learning for dense text retrieval
+## summary
+- 问题：uninformative negatives sampled locally in batch, 导致yield diminishing gradient norms, large stochastic gradient variances, slow learning convergence。
+- 解决：提出approximate nearest neighbor negative contrastive learning (ANCE)，一种学习机制，用于从全部语料中选择hard training negatives。
+- 实验：web search，question answering，commercial search
+- code：https://aka.ms/ance
+- url：https://arxiv.org/pdf/2007.00808
+
 ## dense retrieval vs sparse retrieval
 - 难点：负样本（不相关文档数量远远多于相关文档）负样本negative sampling
 - base：基于BM25检索的文档集，进行负样本采样[1]
