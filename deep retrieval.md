@@ -12,6 +12,10 @@
 - base：基于BM25检索的文档集，进行负样本采样[1]
 - constrastive learning：在local mini-batches内采样负例[2][3][4]
 
+## ANCE
+- 在第k步，基于第k-1步的模型，采用ANN在所有语料文档上召回query的相关文档，并提出真是的相关文档，构成负例（hard negatives），训练第k步的模型
+- 特点：每步采用的是global negagives
+
 ## references
 - [1] Sparse, dense, and attentional representations for text retrieval, 2020.
 - [2] Representation learning with contrastive predictive coding, 2018.
