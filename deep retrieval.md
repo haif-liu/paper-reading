@@ -5,8 +5,8 @@
 - constrastive learning：在local mini-batches内采样负例[2][3][4]
 
 
-
-[1] Sparse, dense, and attentional representations for text retrieval, 2020.
-[2] Representation learning with contrastive predictive coding, 2018.
-[3] A simple framework for contrastive learning of visual representations, 2020.
-[4] Dense passage retrieval for open-domain question answering, 2020.
+# references
+- [1] Sparse, dense, and attentional representations for text retrieval, 2020.
+- [2] Representation learning with contrastive predictive coding, 2018.
+- [3] A simple framework for contrastive learning of visual representations, 2020.
+- [4] Dense passage retrieval for open-domain question answering, 2020.
