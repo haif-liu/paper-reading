@@ -4,6 +4,7 @@
 - intuition：good generalization requires capturing the similarity between examples in one class and contrasting them with examples in other class
 - idea：supervised contrastive learning (SCL) loss + cross entropy loss
 - 结论：对比roberta-large，glue效果更好
+- url：https://arxiv.org/pdf/2011.01403
 
 ## schema
 - ![](https://latex.codecogs.com/svg.latex?L=(1-\lambda)%20\cdot%20L_{CE}%20+%20\lambda%20L_{SCL})
